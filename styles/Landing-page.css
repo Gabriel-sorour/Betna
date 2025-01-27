@@ -57,7 +57,9 @@ main img{
   }
 
   main {
+    height: 350px;
   }
+
 
   .img-div {
     margin-left:90px ;
