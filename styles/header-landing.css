@@ -24,6 +24,10 @@ header a{
   
 }
 
+.button-div{
+  flex-shrink: 0;
+}
+
 button{
   font-size: 20px;
   padding: 3px 9px 3px 9px;
