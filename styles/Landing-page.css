@@ -52,26 +52,37 @@ main img{
 }
 
 
-/* @media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   body {
-    background-color: lightblue;
   }
-  main{
-    height: 1500px;
-    }
-  .text-div{
-    width: 900px;
-    margin-left: 100px;
+
+  main {
   }
-  .title-p{
-    font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 100px;
-}
-.suptitle-p{
-  font-size: 40px;
-  width: 600px;
-}
 
+  .img-div {
+    margin-left:90px ;
+  }
 
-} */
+  main img {
+    width: 300px;
+    opacity: .5;
+  }
+
+  .text-div {
+    width: 250px;
+  }
+
+  .title-p {
+    font-size: 26px;
+  }
+
+  .suptitle-p {
+    font-size: medium;
+  }
+
+  header .right-side {
+    margin-right: 20px;
+    margin-left: -20px;
+  }
+
+}
