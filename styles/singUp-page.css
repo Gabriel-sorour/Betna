@@ -1,0 +1,159 @@
+main {
+  position: relative;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  flex-shrink: 0;
+  margin-left: 165px;
+}
+
+
+.img-div {
+  position: absolute;
+  right: -130px;
+  
+}
+
+main img {
+  width: 900px;
+}
+
+
+.form{
+  position: absolute;
+  left: 0px;
+  top: 350px;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+  height: 50px;
+  border: 2px solid #00a7e4;
+  z-index: 3;
+  position: relative;
+  background-color: rgba(255, 0, 0, 0);
+  outline: none;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+input::placeholder {
+  font-size: 18px;
+  color: rgb(150, 150, 150);
+}
+
+.name-div input {
+  width: 360px;
+  display: inline-block;
+  margin-right:-6px ;
+  margin-left: 0px;
+}
+
+.name-div .first-name{
+  width: 120px;
+}
+
+.day,
+.first-name{
+  border-radius: 4px 0 0 4px;
+}
+
+.date-div input{
+  width: 70px;
+  display: inline-block;
+  padding: 0px;
+  text-align: center;
+  margin-right:-6px ;
+  height: 52px;
+}
+.date-div .year{
+  width: 420px;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+
+
+
+
+@media (max-height: 700px) {
+  main {
+    height: 500px;
+    width: 500px;
+    margin-left: 50px;
+  }
+
+  main img {
+    width: 600px;
+  }
+
+  .img-div {
+    margin-left: 210px;
+  }
+
+  input{
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+  }
+  input::placeholder{
+
+    font-size: 15px;
+  
+  }
+  .date-div input{
+
+    height: 42px;
+   }
+  
+.form{
+  left: 0;
+  top: 180px;
+}
+
+.name-div input {
+  width: 200px;
+}
+
+.date-div .year{
+  width: 240px;
+}
+
+}
+
+/* @media screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+
+    .form{
+      top: 650px;
+    }
+
+    .name-div input{
+      height: 90px;
+      font-size: 45px;
+      width: 500px;
+    }
+
+    .name-div .first-name{
+      width: 230px;
+    }
+    input::placeholder{
+  
+      font-size: 45px;
+    
+    }
+    .date-div input{
+      width: 170px;
+      height: 92px;
+     }
+  
+  .date-div .year{
+    width: 260px;
+  }
+} */

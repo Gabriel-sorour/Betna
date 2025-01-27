@@ -1,0 +1,12 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 90px;;
+}
+input:focus::placeholder{
+  opacity: 0;
+}
